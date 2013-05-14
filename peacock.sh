@@ -15,7 +15,7 @@
 # going home ;)                                                               #
 #                                                                             #
 # REQUIRED PROGRAMS:                                                          #
-#    - acpi								      #
+#    - acpi                                                                   #
 #    - beep                                                                   #
 #                                                                             #
 #                                                                             #
@@ -62,7 +62,7 @@ do
         exit 0
     elif [ "$(acpi -a | grep off-line)" ] 
     then 
-	echo
+        echo
         beep -f $FREQUENCY -r $REPETITIONS
         echo "WATCH OUT!!! The AC adapter was disconnected!"
     fi
