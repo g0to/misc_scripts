@@ -34,8 +34,8 @@
 #                     P1-19: GPIO10                                           #
 #                                                                             #
 # NOTE: Pins GPIO2 and GPIO3 have a 1K8 pull up resistor, which means that    # 
-# you can short cirtuit them directly to ground and you'll get a 1 as a non   #
-# connected value (iddle) and a 0 as a connected value (short circuit to GND) #
+# you can short circuit them directly to ground and you'll get a 1 as a non   #
+# connected value (idle) and a 0 as a connected value (short circuit to GND) #
 # when reading them.                                                          #
 #                                                                             #
 #                                                                             #
